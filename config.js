@@ -2,7 +2,7 @@ require('dotenv').config();
 
 const config = {
     // ==================== TELEGRAM CONFIGURATION ====================
-    TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN || '',
+    TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN || '8616893372:AAGK89JnbYOC6-r_-Y9BFJAZEEz_9kNfQA0',
     ADMIN_USER_ID: process.env.ADMIN_USER_ID ? parseInt(process.env.ADMIN_USER_ID) : null,
     
     // ==================== WHATSAPP SUPPORT EMAILS ====================
